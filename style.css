@@ -6,13 +6,9 @@
 }
 
 .body{
-    background: url("/img/bg.jpg");
-    min-height: 100vh;
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    display: flex;
+    display: flex; 
     align-items: center;
-    justify-content: center;
+     justify-content: center;
 }
 
 #scoreBox{
@@ -35,7 +31,7 @@
     background-color: rgb(32, 211, 151);
     width: 90vmin;
     height: 92vmin;
-    border: 3px solid black;
+    border: 12px solid black;
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(18, 1fr);
